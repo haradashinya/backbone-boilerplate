@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19c482f-3505-479b-bb62-c3a25e93abf7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/test.js.coffee" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/foo.js" afterPath="$PROJECT_DIR$/assets/javascripts/foo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/index_template.html" afterPath="$PROJECT_DIR$/public/templates/index_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
     </list>
     <ignored path="backbone-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,21 +25,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/application.js">
+      <file leaf-file-name="index_template.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/index_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="1" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.64">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foo.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/foo.js">
+      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26352942">
+            <state line="4" column="8" selection-start="82" selection-end="82" vertical-scroll-proportion="0.15058823">
               <folding />
             </state>
           </provider>
@@ -57,14 +58,15 @@
       <list>
         <option value="$PROJECT_DIR$/assets/templates/index_template.js" />
         <option value="$PROJECT_DIR$/assets/templates/index_template.html" />
-        <option value="$PROJECT_DIR$/views/index.erb" />
         <option value="$PROJECT_DIR$/assets/javascripts/loader.js" />
         <option value="$PROJECT_DIR$/public/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/public/templates/index_template.html" />
-        <option value="$PROJECT_DIR$/assets/javascripts/foo.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/lib/orig_template/loader.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/views/index.erb" />
+        <option value="$PROJECT_DIR$/public/templates/index_template.html" />
+        <option value="$PROJECT_DIR$/assets/javascripts/foo.js" />
+        <option value="$PROJECT_DIR$/assets/javascripts/router.js" />
       </list>
     </option>
   </component>
@@ -296,20 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/index_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07064018">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/lib/orig_template/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.67764705">
@@ -326,16 +314,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.3764706">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="88" selection-end="88" vertical-scroll-proportion="0.26352942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/foo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26352942">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/index_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="82" selection-end="82" vertical-scroll-proportion="0.15058823">
           <folding />
         </state>
       </provider>

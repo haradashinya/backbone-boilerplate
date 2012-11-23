@@ -6,4 +6,5 @@
 //= require lib/orig_template/loader
 //= require_tree .
 //= require foo
+//= require router
 

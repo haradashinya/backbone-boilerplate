@@ -36,7 +36,7 @@ var Loader = function(){
 	 * it require jQuery,Handlebar plugin
 	 * @param data
 	 * @param opts
-	 * @return {*|jQuery element}
+	 * @return {*|return dom html}
 	 */
 	this.compile = function(data,opts){
 		if (!opts) opts = {};

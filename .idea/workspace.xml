@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19c482f-3505-479b-bb62-c3a25e93abf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/foo.js" afterPath="$PROJECT_DIR$/assets/javascripts/foo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/lib/orig_template/loader.js" afterPath="$PROJECT_DIR$/assets/javascripts/lib/orig_template/loader.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/test.js.coffee" afterPath="" />
     </list>
     <ignored path="backbone-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +22,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.33882353">
+            <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foo.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/foo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="2" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26352942">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,54 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone-boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone-boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone-boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone-boilerplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orig_template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -229,6 +187,9 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" />
@@ -349,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/foo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26352942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/lib/orig_template/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.67764705">
@@ -372,10 +326,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.33882353">
+        <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26352942">
+          <folding />
         </state>
       </provider>
     </entry>

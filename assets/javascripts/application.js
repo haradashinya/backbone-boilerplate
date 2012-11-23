@@ -3,5 +3,7 @@
 //= json2
 //= require underscore-min
 //= require backbone-min
+//= require lib/orig_template/loader
 //= require_tree .
-//= require_tree ../templates
+//= require foo
+
